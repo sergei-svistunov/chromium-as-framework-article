@@ -2,4 +2,9 @@ executable("example") {
   sources = [
     "example.cc",
   ]
+
+  deps = [
+    "//base",
+    "//net",
+  ]
 }

@@ -368,6 +368,8 @@ req->Start();
 run_loop.Run();
 ```
 
+Полную версию можно найти на [GitHub](https://github.com/sergei-svistunov/chromium-as-framework-article/tree/example-3).
+
 Чтобы собрать и запустить приложение нужно выполнить:
 ```bash
 autoninja -C out/Default example
